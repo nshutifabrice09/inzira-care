@@ -2,6 +2,7 @@ package com.backend.inzira_care.model;
 
 import java.time.LocalDateTime;
 
+
 public class Message {
     private Long id;
     private Long senderId;
