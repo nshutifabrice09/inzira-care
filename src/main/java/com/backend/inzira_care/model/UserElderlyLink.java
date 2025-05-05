@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "user_elderly_link")
+@Table(name = "user_elderly_links")
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
