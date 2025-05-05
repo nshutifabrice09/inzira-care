@@ -1,2 +1,5 @@
-package com.backend.inzira_care.model;public enum Rolw {
+package com.backend.inzira_care.model;
+
+public enum Role {
+    FAMILY_MEMBER, CAREGIVER, NURSE, DOCTOR, ADMIN
 }
