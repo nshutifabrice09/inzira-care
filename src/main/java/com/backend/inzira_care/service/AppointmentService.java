@@ -4,7 +4,7 @@ import com.backend.inzira_care.model.Appointment;
 
 import java.util.List;
 
-public interface AppointmentRepository {
+public interface AppointmentService {
     List<Appointment> getAllAppointments();
     Appointment getAppointmentById(Long id);
     Appointment saveAppointment(Appointment appointment);

@@ -4,7 +4,7 @@ import com.backend.inzira_care.model.AuditLog;
 
 import java.util.List;
 
-public interface AuditLogRepository {
+public interface AuditLogService {
     List<AuditLog> getAllAuditLogs();
     AuditLog getAuditLogById(Long id);
     AuditLog saveAuditLog(AuditLog auditLog);
