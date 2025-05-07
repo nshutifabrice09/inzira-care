@@ -9,5 +9,5 @@ public interface AppointmentRepository {
     Appointment getAppointmentById(Long id);
     Appointment saveAppointment(Appointment appointment);
     Appointment updateAppointment(Long id, Appointment appointment);
-    void deleteAppointmentById(Long id);
+    void removeAppointmentById(Long id);
 }

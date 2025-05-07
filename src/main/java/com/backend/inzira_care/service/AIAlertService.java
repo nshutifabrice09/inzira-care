@@ -9,5 +9,5 @@ public interface AIAlertService {
     AIAlert getAiAlertById(Long id);
     AIAlert saveAiAlert(AIAlert aiAlert);
     AIAlert updateAiAlert(Long id, AIAlert aiAlert);
-    void deleteById(Long id);
+    void removeById(Long id);
 }
