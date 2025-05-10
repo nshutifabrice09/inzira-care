@@ -8,4 +8,6 @@ public interface MedicationLogService {
     List<MedicationLog> getAllMedicationLogs();
     MedicationLog getMedicationLogById(Long id);
     MedicationLog saveMedicationLog(MedicationLog medicationLog);
+    MedicationLog updateMedicationLog(Long id, MedicationLog medicationLog);
+    void removeMedicalLogById(Long id);
 }
