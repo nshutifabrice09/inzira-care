@@ -1,9 +1,10 @@
 package com.backend.inzira_care.service;
 
 import com.backend.inzira_care.model.IncidentReport;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class IncidentReportServiceImplementation implements IncidentReportService{
     @Override
     public List<IncidentReport> getAllIncidentReports() {
