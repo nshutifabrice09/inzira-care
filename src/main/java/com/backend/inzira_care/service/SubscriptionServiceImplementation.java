@@ -1,2 +1,7 @@
-package com.backend.inzira_care.service;public class SubscriptionServiceImplementation {
+package com.backend.inzira_care.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class SubscriptionServiceImplementation implements SubscriptionService{
 }
