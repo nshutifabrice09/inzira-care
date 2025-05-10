@@ -8,5 +8,6 @@ public interface UserElderlyLinkService {
     List<UserElderlyLink> getAllUserElderlyLinks();
     UserElderlyLink getUserElderlyLinkById(Long id);
     UserElderlyLink saveUserElderlyLink(UserElderlyLink userElderlyLink);
-    
+    UserElderlyLink updateUserElderlyLink(Long id, UserElderlyLink userElderlyLink);
+    void removeById(Long id);
 }
