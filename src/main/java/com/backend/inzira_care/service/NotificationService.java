@@ -1,2 +1,12 @@
-package com.backend.inzira_care.service;public interface NotificationService {
+package com.backend.inzira_care.service;
+
+import com.backend.inzira_care.model.Notification;
+
+import java.util.List;
+
+public interface NotificationService {
+    List<Notification> getAllNotifications();
+    Notification getNotificationById(Long id);
+    Notification saveNotification(Notification notification);
+    
 }
