@@ -5,5 +5,8 @@ import com.backend.inzira_care.model.UserElderlyLink;
 import java.util.List;
 
 public interface UserElderlyLinkService {
-    List<UserElderlyLink>
+    List<UserElderlyLink> getAllUserElderlyLinks();
+    UserElderlyLink getUserElderlyLinkById(Long id);
+    UserElderlyLink saveUserElderlyLink(UserElderlyLink userElderlyLink);
+    
 }
